@@ -1,0 +1,50 @@
+.m-3{
+    margin : 15px;
+}
+.alertInput{
+    border-color:red;
+}
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;    
+}
+.home-reverse{
+    display: grid;
+    grid-template-rows: 1fr 1fr;   
+}
+.border{
+    border: 1px solid red;
+}
+.Items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+}
+.Item{
+    margin: 15px;
+    height: 50px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+.filter{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 15px;
+}
+.btn-filter {
+    border: none;
+    color: white;
+    background-color: #008CBA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

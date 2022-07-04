@@ -1,0 +1,14 @@
+  .modal {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .modal-container {
+    position: absolute;
+    width: 80%;
+    height : 80%;
+    background: #ffffff;
+    left: 10%;
+    top: 10%;
+    padding: 20px;
+    z-index : 10
+  }
+  
